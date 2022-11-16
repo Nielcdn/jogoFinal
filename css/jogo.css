@@ -1,0 +1,100 @@
+/*personagens*/
+
+.pilar {
+   position: absolute;
+   top: 1vw;
+   left: 1vw;
+   height: 0vw;
+   width: 0vw;
+   transform: rotate(45deg);
+   background-color: aqua;
+   transition: opacity 2s linear 0s;
+}
+.chao {
+   position: absolute;
+   top: 30vw;
+   left: 20vw;
+   height: 0vw;
+   width: 0vw;
+   background-image: url('../img/plataforma_neve.jpg');
+   background-size: cover;
+   transition: opacity 2s linear 0s;
+}
+
+.final {
+   position: absolute;
+   top: 30vw;
+   left: 20vw;
+   height: 0vw;
+   width: 0vw;
+   background-image: radial-gradient(darkblue,lightblue);
+   background-size: cover;
+   transition: opacity 2s linear 0s;
+}
+
+.moeda {
+   position: absolute;
+   top: 1vw;
+   left: 1vw;
+   height: 0vw;
+   width: 0vw;
+   background-color: goldenrod;
+   border-radius: 50%;
+   transition: opacity 2s linear 0s;
+}
+/*     */
+
+body {
+   background-color: rgb(52, 25, 78);
+}
+
+
+.moedaCount {
+   position:absolute;
+   top: 0vw;
+   left: 0vw;
+   width: 10.5vw;
+   height: 3vw;
+   font-size: 1.75vw;
+   font-weight: bold;
+   background-color: lightgray;
+   color:rgb(6, 10, 3);
+   transition: width 2s linear 0s;
+   transition: height 2s linear 0s;
+}
+
+
+.fora {position:absolute;
+   top: 1vw;
+   left: 8%;}
+
+.fundo {position:absolute;
+    width: 80vw;
+    height: 40vw;
+    background-image: url('../img/paisagem_neve.jpg');
+    background-size:cover;
+    border: solid 5px maroon;
+    text-align: center;
+    overflow: hidden;
+   }
+.painel {
+   position: absolute;
+    top: 42vw; 
+    left: 10vw; 
+    width: 60vw;
+    height: 2vw;
+    color:antiquewhite;
+    text-align: center;
+}
+
+#div1 {
+   position: absolute;
+   top: 20vw;
+   left: 15vw; 
+   width: 5vw; 
+   height: 5vw; 
+   background-color: green; 
+   text-align: center;
+   font-size: 4vw;
+   transition: opacity 2s linear 0s;
+}

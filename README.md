@@ -1,2 +1,1 @@
-# jogoFinal
-Versão final do trabalho de jogo em javascript.
+Um Jogo de Plataforma onde deve-se pular e desviar de obstáculos.
