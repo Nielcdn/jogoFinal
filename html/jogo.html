@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo Javascript</title>
+	<link rel="manifest" href="../js/manifest.json" />
+	<link rel="shortcut icon" href="../img/paisagem_neve.jpg" type="image/png">
     <link rel="stylesheet" href="../css/jogo.css">
     </head>
 	<body>
@@ -26,5 +28,12 @@
 
 	</footer>
 		<script src="../js/jogo.js"></script>
+		<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('../js/sw.js')
+			   .then(function () {console.log('service worker registered');})
+			   .catch(function () {console.log('service worker failed'); });
+		  }
+		</script>
 	</body>
 </html>
